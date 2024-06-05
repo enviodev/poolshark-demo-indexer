@@ -1,0 +1,34 @@
+name: Fuel Greeter Indexer
+networks:
+  - id: 0
+    start_block: 0
+    contracts:
+      - name: LimitPool
+        address: 0xc25f9b9b58f0bf9c6ca3064293ed6910a9523248a1b070a78d2f5af3548a435e
+        abi_file_path: ./abis/limitpool-abi.json
+        handler: ./src/EventHandlers.ts
+        events:
+          - name: InitPoolEvent
+          - name: SwapEvent
+# pub struct InitPoolEvent {
+#     pool_id: b256,
+#     min_tick: I24,
+#     max_tick: I24,
+#     start_price: Q64x64,
+#     start_tick: I24,
+# }
+
+# pub struct SwapEvent {
+#     pool_id: b256,
+#     recipient: Identity,
+#     amount_in: u64,
+#     amount_out: u64,
+#     fee_growth_global0: u256,
+#     fee_growth_global1: u256,
+#     price: Q64x64,
+#     liquidity: u64,
+#     fee_amount: u64,
+#     tick_at_price: I24,
+#     zero_for_one: bool,
+#     exact_in: bool,
+# }
