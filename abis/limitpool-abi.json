@@ -1,4 +1,5 @@
 {
+  "encoding": "1",
   "types": [
     {
       "typeId": 0,
@@ -196,7 +197,7 @@
       "type": "struct Address",
       "components": [
         {
-          "name": "value",
+          "name": "bits",
           "type": 6,
           "typeArguments": null
         }
@@ -378,7 +379,7 @@
       "type": "struct ContractId",
       "components": [
         {
-          "name": "value",
+          "name": "bits",
           "type": 6,
           "typeArguments": null
         }
@@ -732,9 +733,7 @@
           "typeArguments": null
         }
       ],
-      "typeParameters": [
-        10
-      ]
+      "typeParameters": [10]
     },
     {
       "typeId": 31,
@@ -927,9 +926,7 @@
           "typeArguments": null
         }
       ],
-      "typeParameters": [
-        10
-      ]
+      "typeParameters": [10]
     },
     {
       "typeId": 37,
@@ -974,10 +971,7 @@
       "attributes": [
         {
           "name": "storage",
-          "arguments": [
-            "read",
-            "write"
-          ]
+          "arguments": ["read", "write"]
         }
       ]
     },
@@ -998,10 +992,7 @@
       "attributes": [
         {
           "name": "storage",
-          "arguments": [
-            "read",
-            "write"
-          ]
+          "arguments": ["read", "write"]
         }
       ]
     },
@@ -1022,10 +1013,7 @@
       "attributes": [
         {
           "name": "storage",
-          "arguments": [
-            "read",
-            "write"
-          ]
+          "arguments": ["read", "write"]
         }
       ]
     },
@@ -1046,10 +1034,7 @@
       "attributes": [
         {
           "name": "storage",
-          "arguments": [
-            "read",
-            "write"
-          ]
+          "arguments": ["read", "write"]
         }
       ]
     },
@@ -1070,10 +1055,7 @@
       "attributes": [
         {
           "name": "storage",
-          "arguments": [
-            "read",
-            "write"
-          ]
+          "arguments": ["read", "write"]
         }
       ]
     },
@@ -1094,10 +1076,7 @@
       "attributes": [
         {
           "name": "storage",
-          "arguments": [
-            "read",
-            "write"
-          ]
+          "arguments": ["read", "write"]
         }
       ]
     },
@@ -1118,10 +1097,7 @@
       "attributes": [
         {
           "name": "storage",
-          "arguments": [
-            "read",
-            "write"
-          ]
+          "arguments": ["read", "write"]
         }
       ]
     },
@@ -1142,9 +1118,7 @@
       "attributes": [
         {
           "name": "storage",
-          "arguments": [
-            "read"
-          ]
+          "arguments": ["read"]
         }
       ]
     },
@@ -1171,9 +1145,7 @@
       "attributes": [
         {
           "name": "storage",
-          "arguments": [
-            "read"
-          ]
+          "arguments": ["read"]
         }
       ]
     },
@@ -1194,9 +1166,7 @@
       "attributes": [
         {
           "name": "storage",
-          "arguments": [
-            "read"
-          ]
+          "arguments": ["read"]
         }
       ]
     },
@@ -1217,9 +1187,7 @@
       "attributes": [
         {
           "name": "storage",
-          "arguments": [
-            "read"
-          ]
+          "arguments": ["read"]
         }
       ]
     },
@@ -1240,17 +1208,14 @@
       "attributes": [
         {
           "name": "storage",
-          "arguments": [
-            "read",
-            "write"
-          ]
+          "arguments": ["read", "write"]
         }
       ]
     }
   ],
   "loggedTypes": [
     {
-      "logId": "0",
+      "logId": "8270131219760189612",
       "loggedType": {
         "name": "",
         "type": 13,
@@ -1258,15 +1223,7 @@
       }
     },
     {
-      "logId": "1",
-      "loggedType": {
-        "name": "",
-        "type": 13,
-        "typeArguments": []
-      }
-    },
-    {
-      "logId": "2",
+      "logId": "12591881579666828212",
       "loggedType": {
         "name": "",
         "type": 15,
@@ -1274,7 +1231,7 @@
       }
     },
     {
-      "logId": "3",
+      "logId": "4598085698273361370",
       "loggedType": {
         "name": "",
         "type": 31,
@@ -1282,7 +1239,7 @@
       }
     },
     {
-      "logId": "4",
+      "logId": "2820793685322372861",
       "loggedType": {
         "name": "",
         "type": 22,
@@ -1290,7 +1247,7 @@
       }
     },
     {
-      "logId": "5",
+      "logId": "6707969313597877536",
       "loggedType": {
         "name": "",
         "type": 23,
@@ -1298,7 +1255,7 @@
       }
     },
     {
-      "logId": "6",
+      "logId": "16715308483435741526",
       "loggedType": {
         "name": "",
         "type": 8,
@@ -1306,15 +1263,7 @@
       }
     },
     {
-      "logId": "7",
-      "loggedType": {
-        "name": "",
-        "type": 8,
-        "typeArguments": []
-      }
-    },
-    {
-      "logId": "8",
+      "logId": "4094768686226709746",
       "loggedType": {
         "name": "",
         "type": 25,
@@ -1322,7 +1271,7 @@
       }
     },
     {
-      "logId": "9",
+      "logId": "12404834594863593261",
       "loggedType": {
         "name": "",
         "type": 33,
